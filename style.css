@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.home{
+    background: url('images/red\ bag1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+     background-position: center; 
+    background-size: cover;
+    margin: 100px auto;
+}
+.home-content{
+    color: white;
+    background-color:#000;
+    padding: 20px 0;
+    text-align: center;
+}
+.home-content h5{
+    font-size: 15px;
+}
+.home-content h1{
+    font-size: 20px;
+    font-weight: 100;
+    padding: 2px;
+    margin-top: 10px;
+    align-items: center;
+}
+.home-content h5{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.class_btns{
+    color: white;
+    margin-top: 10px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.hero-btn:hover{
+    border: 1px solid #fff;
+    background: #000;
+    transition: 1s;
+
+}
+
+.featured{
+    padding:100px 50px;
+    background: whitesmoke;
+    margin:100px auto;
+}
+.action__btns{
+    text-align: center;
+    border-radius: 2%;
+}
+
+.featured-content{
+    display: flex;
+     align-items: center; 
+    gap: 25px;
+}
+
+.featured-item{
+    width: 300px;
+    height: 550px;
+    position: relative;
+    
+}
+.featured-text{
+    font-size: 50px;
+    font-weight: 100;
+    color: aqua;
+}
+
+.featured-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px;
+}
+.featured-item span{
+    font-size: 20px;
+    color: aqua;
+}
+.class-btns{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+}
+.class-btns:hover{
+    border: 1px solid #000;
+    background: #000;
+    transition: 1s;
+}
+.shop{
+    font-size: 20px;
+    font-weight: 50;
+    text-align: center;
+    justify-content: center;
+}
+.fashion{
+    height: 100vh;
+    width: 30%;
+    background-repeat: no-repeat;
+     background-position: center; 
+    background-size: cover;
+    margin: 100px auto;
+}
+.fashion_loves{
+    height: 100vh;
+    width: 30%;
+    background-repeat: no-repeat;
+     background-position: center; 
+    background-size: cover;
+    margin: 100px auto;
+}
+.fashion_bubies{
+    height: 100vh;
+    width: 30%;
+    background-repeat: no-repeat;
+     background-position: center; 
+    background-size: cover;
+    margin: 100px auto;
+}
+.fashion_girls{
+    height: 100vh;
+    width: 30%;
+    background-repeat: no-repeat;
+     background-position: center; 
+    background-size: cover;
+    margin: 100px auto;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 99;
+}
+
+.nav__content{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: aqua;
+    transition: .3s;
+}
+ 
+nav .log a:hover{
+    color: aqua;
+}
+
+nav .menu{
+    color: aqua;
+}
+nav input{
+    display: none; 
+}
+
+nav .checkbox i{
+    font-size: 2rem;
+    color: aqua;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+}
+
+ul li a{
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text-dark);
+    transition: 0.3s; 
+}
+
+ul li a:hover{
+    border-top-color: var(--secondary-color);
+    border-bottom-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: top 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2)
+}
+@media(max-weight:  700px){
+    .row{
+        flex-direction: column;
+    }
+}
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+
+}
+.campus-col{
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100;
+    display: block;
+}
+.layer{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.text-center{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+.service{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: top 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.container .mt-4 .pt-4{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.service{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: top 100px;
+}
+h3{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.text-center{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.service-text{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
